@@ -1,0 +1,17 @@
+[project]
+name = "seeds"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gergely Imreh", email = "gergely.imreh@faculty.ai" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+seeds = "seeds:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

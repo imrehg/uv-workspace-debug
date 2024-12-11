@@ -1,0 +1,20 @@
+[project]
+name = "bird-feeder"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gergely Imreh", email = "gergely.imreh@faculty.ai" }
+]
+requires-python = ">=3.13"
+dependencies = []
+dynamic = ["version"]
+
+[project.scripts]
+bird-feeder = "bird_feeder:main"
+
+[tool.hatch.version]
+source = "vcs"
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
