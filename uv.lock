@@ -9,7 +9,7 @@ members = [
 
 [[package]]
 name = "albatros"
-version = "0.1.0"
+version = "0.1.1.dev0+ga3b423d.d20241211"
 source = { editable = "." }
 dependencies = [
     { name = "bird-feeder" },
@@ -20,5 +20,5 @@ requires-dist = [{ name = "bird-feeder", editable = "packages/bird-feeder" }]
 
 [[package]]
 name = "bird-feeder"
-version = "0.1.0"
+version = "0.1.1.dev0+ga3b423d.d20241211"
 source = { editable = "packages/bird-feeder" }

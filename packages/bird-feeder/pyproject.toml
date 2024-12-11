@@ -14,6 +14,7 @@ bird-feeder = "bird_feeder:main"
 
 [tool.hatch.version]
 source = "vcs"
+raw-options	= { root = "./../.." }
 
 [build-system]
 requires = ["hatchling", "hatch-vcs"]
